@@ -1,0 +1,587 @@
+/* body{
+    width: 1200px;
+    margin: 20px 70px ;
+} */
+/* * {
+
+    overflow-x: hidden;
+
+
+} */
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 100px; */
+    align-items: center;
+}
+.navbar {
+    padding: 15px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    color: black;
+
+}
+
+.menu-toggle {
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.name-text{
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    margin-right: 350px;
+}
+
+.primary-button{
+    border-radius: 5px;
+    background: #FF5400;
+    border: none;
+    width: 174px;
+    height: 52px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    
+    
+
+}
+.banner-input{
+    display: grid;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr ) ;
+    
+    
+    
+}
+.input-br{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+width: 174px;
+height: 50px;
+border-radius: 5px;
+border: none;
+padding-left: 15px;
+}
+.banner{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png) ;
+    /* width: 1195px;
+    height: 500px; */
+    border-radius: 15px;
+    
+    
+    
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text-h1{
+    color: #ffffff;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    padding-top: 100px;
+}
+.banner-text-p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fffbfb;   
+}
+
+/* Popular Tours start */
+
+.primary-text-h3{
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+.primary-text-p{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;  
+}
+.li-text{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.popular-tours-text{
+    width: 540px;
+    height: 550px;
+}
+.populer-tours{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 70px;
+}
+.popular-tours-img{
+}
+
+.destination-text{
+    text-align: center;
+    margin: 90px 0 60px 0 ;
+}
+
+.colum-1{
+  float: left;
+  width: 575px;
+  height: 300px;
+  padding-right: 24px;
+  
+}
+.colum-2{
+    float: left;
+    width: 575px;
+    height: 300px;
+}
+  
+
+
+/* .the-colum {
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+} */
+.colum-1-1{
+    width: 573px;
+height: 300px;
+background-image: url(B9A2-Hero-Travel-main/Images/Rectangle\ 5.png);
+background-repeat: no-repeat;
+text-align: center;
+float: left;
+margin-right: 24px;
+
+}
+.colum-1-2{
+    width: 573px;
+height: 300px;
+background-image: url(B9A2-Hero-Travel-main/Images/Rectangle\ 8.png);
+background-repeat: no-repeat;
+text-align: center;
+display: flex;
+}
+.colum-2-1{
+ background-image: url(B9A2-Hero-Travel-main/Images/Rectangle\ 6.png);
+background-repeat: no-repeat;
+text-align: center;
+float: left;
+width: 374px;
+height: 286px;
+border-radius: 16px;
+margin-top: 24px;
+
+}
+.colum-2-2{
+    background-image: url(B9A2-Hero-Travel-main/Images/Rectangle\ 7.png);
+   text-align: center;
+   background-repeat: no-repeat;
+   width: 474px;
+height: 286px;
+float: left;
+margin: 24px 24px 0px 24px;
+}
+.colum-2-3{
+    background-image: url(B9A2-Hero-Travel-main/Images/Rectangle\ 9.png);
+   background-repeat: no-repeat;
+   text-align: center;
+   float: left;
+   width: 274px;
+   height: 286px;
+   border-radius: 16px;
+   margin-top: 24px;
+   
+   }
+   .colum-3-1{
+    width: 473px;
+    height: 300px;
+background-image: url(B9A2-Hero-Travel-main/Images/Rectangle\ 11.png);
+background-repeat: no-repeat;
+text-align: center;
+float: left;
+margin-right: 24px;
+border-radius: 16px;
+margin-top: 24px;
+
+}
+.colum-3-2{
+    width: 673px;
+    height: 300px;
+background-image: url(B9A2-Hero-Travel-main/Images/Rectangle\ 10.png);
+background-repeat: no-repeat;
+text-align: center;
+float: left;
+margin-right: 24px;
+border-radius: 16px;
+margin-top: 24px;
+margin-bottom: 100px;
+
+}
+
+.choose-text-h3{
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800; 
+    margin-top: 90px; 
+}
+.choose-text-p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 100px;
+}
+.hotels{
+
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(207, 121, 22, 0.2);
+background: rgba(251, 181, 99, 0.05);
+padding: 10px 10px;
+}
+.service-p{
+    color: #5A5A5D;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;   
+}
+.servige-h3{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+}
+
+
+.all-hotels {
+
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+    
+}
+.service{
+    /* width: 570px; */
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 10px 10px;
+}
+
+
+
+.price{
+  
+    width: 573px;
+height: 284px;
+margin: 0 auto;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 32px 32px;
+}
+
+
+.newsletter-main {
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.newsletter{
+    width: 400px;
+    height: 370px; 
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 50px 50px 0px 50px ;
+    margin-top: 50px;
+    
+    
+}
+.input{
+    width: 393px;
+height: 52px;
+border-radius: 8px;
+background:rgb(231, 224, 221);
+color: rgb(3, 3, 3);
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+border: none;
+margin-bottom: 20px;
+padding-left: 30px;
+}
+.news-button{
+    width: 422px;
+    height: 52px; 
+    color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+}
+.up-70{
+    background-image: url(B9A2-Hero-Travel-main/Images/Rectangle\ 8\ \(1\).png);
+    width: 650px;
+height: 422px;
+border-radius: 8px;
+background-repeat: no-repeat;
+margin-top: 50px;
+
+
+
+
+}
+.save-up{
+    width: 300px;
+height: 100px;
+transform: rotate(-19.628deg);
+background-color: #FF5400;
+border-radius: 16px;
+text-align: center;
+transform-origin: bottom right;
+margin-top: 225px;
+margin-left: 354px;
+
+
+
+}
+.save-text{
+    color: #FFF;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+
+}
+
+
+.ad-sec {
+
+
+    display: flex;
+     justify-content: space-around;
+
+     align-items: center;
+
+
+     margin: 50px 0;
+     gap: 30px;
+}
+
+.footer-name{
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.footer-text{
+    display: flex;
+    margin-top: 600px;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.footer-text-p{
+    color: #5A5A5D;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer-icon{
+    text-align: center;
+    /* margin-top: 10px; */
+}
+.footer{
+ width: 100%;
+height: 400px;
+background: rgba(19, 19, 24, 0.05);
+}
+
+
+@media screen and (max-width : 600px) {
+
+
+    .banner-text-h1{
+
+        font-size: 22px;
+    }
+
+    .banner-text-p {
+
+        text-align: center;
+
+
+    }
+
+    .banner-input {
+
+
+        grid-template-columns: repeat(1,1fr);
+        
+      
+
+    }
+
+
+    .populer-tours {
+
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .colum-1-1 {
+
+
+        width: 100%;
+        margin-right: 0;
+    }
+
+
+    .colum-2-1 {
+
+
+        margin: 20px 0;
+        width: 100%;
+        
+    }
+    .colum-2-2 {
+
+
+        margin: 20px 0;
+        
+    }
+
+    .newsletter-main {
+
+        flex-direction: column;
+    }
+
+    .up-70 {
+
+        width: 100%;
+    }
+.save-up {
+
+    width: 100%;
+    margin: 0;
+   
+
+    
+}
+
+
+.menu-toggle {
+    display: flex;
+}
+
+.nav-list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #333;
+}
+
+.nav-list.show {
+    display: flex;
+}
+
+
+.ad-sec {
+
+    flex-direction: column;
+}
+   
+
+
+
+
+
+
+    
+}
+
+
